@@ -50,12 +50,15 @@ def generate(host, port, token, data, interval_ms, verbose):
     interval_secs = interval_ms / 1000.0
     headers = {'Content-Type': 'application/json', }
     # payload = data.to_json(orient='table')
-    payload = data.to_json()
+    # print(data)
+    payload = data.to_json(orient="records")
     if verbose:
         logger.debug(payload)
-    print(payload)
+    # print(type(payload))
+    print(json.loads(payload)[0])
+    payload1 = json.loads(payload)[0]
     url_post = 'http://{0}:{1}/api/v1/{2}/telemetry'.format(host, port, token)
-    requests.post(url_post, headers=headers, data=payload)
+    requests.post(url_post, headers=headers, data=payload1)
     # print(payload)
     # mqttc.publish(topic, payload)
     time.sleep(interval_secs)
@@ -90,6 +93,7 @@ if __name__ == "__main__":
             # message[k] = float(v)
 
         test = pd.DataFrame(message, index=[0])
+        # print(test.head())
         test.index = pd.to_datetime(test['Timestamp'], format="%d-%m-%Y %H:%M")
         # test = test.sort_index()
         test1 = test.drop(columns = ['Timestamp'])
@@ -109,9 +113,9 @@ if __name__ == "__main__":
 
         X_pred = X_pred.reshape(X_pred.shape[0], X_pred.shape[2])
         X_pred = pd.DataFrame(X_pred, columns=test1.columns)
-        X_pred.index = test1.index
+        # X_pred.index = test1.index
 
-        scored = pd.DataFrame(index=test1.index)
+        scored = pd.DataFrame()
         Xtest = X_test1.reshape(X_test1.shape[0], X_test1.shape[2])
         scored['Loss_MAE'] = np.mean(np.abs(X_pred - Xtest), axis=1)
         scored['RMSE'] = np.mean(sqrt(mean_squared_error(Xtest,X_pred)))
@@ -119,6 +123,7 @@ if __name__ == "__main__":
         scored['Anomaly'] = scored['Loss_MAE'] > scored['threshold']
         # print(scored.head())
         # print(X_pred.head())
+        # print(scored['Loss_MAE'][0])
 
         anomalies = scored[scored.Anomaly == True]
         # print(anomalies.head())
@@ -127,7 +132,7 @@ if __name__ == "__main__":
         # result_1 = pd.merge(scored, on='Timestamp')  # Loss_MAE + Threshold + Anomaly class(T/F)
         # scored.reset_index(drop=True,inplace=True)
 
-        print(scored.head())
+        # print(scored.head())
         result_new = scored.astype({"Loss_MAE":float,"RMSE":float,"threshold":float,"Anomaly":bool})
 
         generate(http_config.get("host", "localhost"), http_config.get("port", 8083),
