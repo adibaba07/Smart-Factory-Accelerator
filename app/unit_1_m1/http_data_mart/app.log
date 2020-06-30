@@ -1,0 +1,9 @@
+__main__: DEBUG - 27-Jun-20 21:28:50 - http config: {'host': '127.0.0.1', 'port': 8083, 'token': 'trXUR8UynHT0URbDdWDI'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 27-Jun-20 21:29:30 - http config: {'host': '127.0.0.1', 'port': 8083, 'token': 'trXUR8UynHT0URbDdWDI'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 19:48:32 - http config: {'host': '127.0.0.1', 'port': 8083, 'token': 'External_device'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}

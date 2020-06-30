@@ -1,0 +1,127 @@
+__main__: DEBUG - 03-Jun-20 13:26:54 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'unit1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1-m1'}
+__main__: ERROR - 05-Jun-20 11:07:24 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 11:30:17 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 11:30:25 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 11:30:54 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 11:31:22 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 11:34:33 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 11:35:23 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 12:42:00 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:07:46 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:31:24 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:33:10 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:33:54 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:34:56 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:38:38 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:42:09 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:49:04 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 13:56:03 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 14:32:25 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 17:36:20 - Please provide configuration file path.
+__main__: ERROR - 05-Jun-20 18:01:21 - Please provide configuration file path.
+__main__: ERROR - 16-Jun-20 16:54:20 - Please provide configuration file path.
+kafka.conn: ERROR - 16-Jun-20 16:54:50 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 16:54:50 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 16:54:50 - No Brokers. Attempt 0
+__main__: ERROR - 16-Jun-20 16:58:08 - Please provide configuration file path.
+kafka.conn: ERROR - 16-Jun-20 16:58:38 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 16:58:38 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 16:58:38 - No Brokers. Attempt 0
+__main__: DEBUG - 16-Jun-20 16:59:01 - mqtt config_u1_m1.json: {'host': '192.168.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 16-Jun-20 16:59:21 - mqtt config_u1_m1.json: {'host': '192.168.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+kafka.conn: ERROR - 16-Jun-20 16:59:51 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 16:59:51 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 16:59:51 - No Brokers. Attempt 0
+kafka.conn: ERROR - 16-Jun-20 17:00:24 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:00:24 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:00:24 - No Brokers. Attempt 1
+kafka.conn: ERROR - 16-Jun-20 17:00:56 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:00:56 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:00:56 - No Brokers. Attempt 2
+kafka.conn: ERROR - 16-Jun-20 17:01:29 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:01:29 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:01:29 - No Brokers. Attempt 3
+__main__: DEBUG - 16-Jun-20 17:01:57 - mqtt config_u1_m1.json: {'host': '192.168.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 16-Jun-20 17:11:14 - mqtt config_u1_m1.json: {'host': '192.168.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+kafka.conn: ERROR - 16-Jun-20 17:11:45 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:11:45 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:11:45 - No Brokers. Attempt 0
+__main__: DEBUG - 16-Jun-20 17:50:51 - mqtt config_u1_m1.json: {'host': '192.168.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+kafka.conn: ERROR - 16-Jun-20 17:51:21 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:51:21 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:51:21 - No Brokers. Attempt 0
+kafka.conn: ERROR - 16-Jun-20 17:51:53 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:51:53 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:51:53 - No Brokers. Attempt 1
+kafka.conn: ERROR - 16-Jun-20 17:52:25 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:52:25 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:52:25 - No Brokers. Attempt 2
+kafka.conn: ERROR - 16-Jun-20 17:52:57 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:52:57 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:52:57 - No Brokers. Attempt 3
+kafka.conn: ERROR - 16-Jun-20 17:53:30 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:53:30 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:53:30 - No Brokers. Attempt 4
+kafka.conn: ERROR - 16-Jun-20 17:54:02 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:54:02 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:54:02 - No Brokers. Attempt 5
+kafka.conn: ERROR - 16-Jun-20 17:54:34 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:54:34 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:54:34 - No Brokers. Attempt 6
+kafka.conn: ERROR - 16-Jun-20 17:55:06 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:55:06 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:55:06 - No Brokers. Attempt 7
+kafka.conn: ERROR - 16-Jun-20 17:55:39 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:55:39 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:55:39 - No Brokers. Attempt 8
+kafka.conn: ERROR - 16-Jun-20 17:56:11 - Connection attempt to <BrokerConnection node_id=bootstrap host=localhost/::1 port=9092> timed out
+kafka.client: ERROR - 16-Jun-20 17:56:11 - Unable to bootstrap from [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
+__main__: ERROR - 16-Jun-20 17:56:11 - No Brokers. Attempt 9
+__main__: DEBUG - 21-Jun-20 14:56:32 - mqtt config_u1_m1.json: {'host': '192.168.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 28-Jun-20 15:41:07 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:11:26 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:13:50 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:17:13 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:20:24 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:37:44 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:43:02 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:49:55 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:54:55 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 14:57:42 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 15:14:24 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 15:16:21 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 16:54:50 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 19:10:41 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 19:25:10 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 19:28:52 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 29-Jun-20 19:38:52 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 30-Jun-20 13:54:36 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 30-Jun-20 13:59:31 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}
+__main__: DEBUG - 30-Jun-20 14:02:17 - mqtt config_u1_m1.json: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+kafka config_u1_m1.json: {'host': 'localhost', 'port': 9092, 'topic': 'sensors-u1m1'}

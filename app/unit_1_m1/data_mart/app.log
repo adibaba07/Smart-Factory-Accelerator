@@ -1,0 +1,414 @@
+__main__: DEBUG - 11-Jun-20 17:34:08 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 11-Jun-20 17:41:09 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 11-Jun-20 17:42:17 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:47:39 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:48:16 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:51:43 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:53:04 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:53:48 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:54:17 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:55:03 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:58:01 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:59:05 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 11:59:17 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 14:03:58 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 14:17:52 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 14:20:49 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 1000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 14:28:49 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 14:29:32 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 14:30:25 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_AD1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 14:32:37 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:32:04 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:49:37 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:50:00 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:50:33 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:52:19 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:52:33 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:54:00 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:54:19 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 16:54:38 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:00:28 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:02:07 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:02:24 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:04:31 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:04:45 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:05:27 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:33:34 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:53:58 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:55:08 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:55:58 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:56:17 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:58:51 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 12-Jun-20 17:59:16 - mqtt config: {'host': '192.168.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:02:44 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:04:18 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:05:20 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:05:40 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:06:32 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:10:41 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:15:55 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:16:33 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:17:08 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:26:06 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:31:01 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:31:45 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:33:21 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:48:58 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:49:40 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:49:49 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:52:32 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 15-Jun-20 21:52:44 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:07:10 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:18:04 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:18:41 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:19:10 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:19:59 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:21:08 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:22:43 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:31:45 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:32:07 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:36:25 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:37:06 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:38:32 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:39:20 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:40:20 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:40:39 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:42:36 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:43:10 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:46:50 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 13:51:48 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:02:24 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:02:48 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:04:37 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:11:45 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:13:58 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:14:14 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:24:33 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:27:41 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:28:31 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:29:12 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:37:28 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:37:55 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:38:13 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:39:17 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:44:40 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 14:45:27 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 16:24:23 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 16:24:49 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 16:25:22 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/Averaged_BearingTest_Dataset.csv'}
+__main__: DEBUG - 16-Jun-20 16:35:14 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:39:09 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:39:22 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:45:44 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:46:24 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:46:56 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:47:24 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:50:22 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:50:40 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:54:12 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:57:50 - mqtt config: {'host': '192.169.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 16:58:58 - mqtt config: {'host': '192.169.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 17:01:54 - mqtt config: {'host': '192.169.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 17:11:11 - mqtt config: {'host': '192.169.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 16-Jun-20 17:50:24 - mqtt config: {'host': '192.169.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 21-Jun-20 14:52:51 - mqtt config: {'host': '192.169.99.1', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 21-Jun-20 15:44:30 - mqtt config: {'host': '192.169.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 21-Jun-20 15:46:31 - mqtt config: {'host': '192.169.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'MQTT_1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 21-Jun-20 15:49:05 - mqtt config: {'host': '192.169.99.100', 'port': 1883, 'topic': 'v1/devices/me/telemetry', 'token': 'LveCEy1eQ5sOfrV0YGLw'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 28-Jun-20 15:40:51 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:11:18 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:13:47 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:17:09 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:20:21 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:37:36 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:42:57 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:49:50 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:54:53 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 14:57:40 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 15:14:22 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 15:16:18 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 16:54:19 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 19:10:36 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 19:25:07 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 19:28:49 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 29-Jun-20 19:38:49 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 30-Jun-20 13:51:53 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 30-Jun-20 13:54:26 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 30-Jun-20 13:59:29 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}
+__main__: DEBUG - 30-Jun-20 14:02:14 - mqtt config: {'host': 'localhost', 'port': 1883, 'topic': 'sensors-u1-m1'}
+misc config: {'interval_ms': 5000, 'verbose': False}
+data config: {'file_path': './../data/BearingTest_Data.csv'}

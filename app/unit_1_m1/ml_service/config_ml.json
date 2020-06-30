@@ -1,0 +1,16 @@
+{
+    "http": {
+        "host": "localhost",
+        "port": 8083,
+        "token": "KkFSogMUNDcKd5M30KzW",
+        "sleeptime": 5000
+    },
+    "misc": {
+        "verbose": false
+    },
+    "kafka": {
+        "host": "localhost",
+        "port": 9092,
+        "topic": "sensors-u1m1"
+    }
+}

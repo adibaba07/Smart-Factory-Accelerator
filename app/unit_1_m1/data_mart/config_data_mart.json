@@ -1,0 +1,14 @@
+{
+    "mqtt": {
+        "host": "localhost",
+        "port": 1883,
+        "topic": "sensors-u1-m1"
+    },
+    "misc": {
+        "interval_ms": 5000,
+        "verbose": false
+    },
+    "data": {
+        "file_path": "./../data/BearingTest_Data.csv"
+    }
+}

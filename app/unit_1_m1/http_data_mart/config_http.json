@@ -1,0 +1,14 @@
+{
+    "http": {
+        "host": "127.0.0.1",
+        "port": 8083,
+        "token": "External_device"
+    },
+    "misc": {
+        "interval_ms": 5000,
+        "verbose": false
+    },
+    "data": {
+        "file_path": "./../data/BearingTest_Data.csv"
+    }
+}
