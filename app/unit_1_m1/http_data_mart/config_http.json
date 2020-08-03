@@ -2,7 +2,7 @@
     "http": {
         "host": "127.0.0.1",
         "port": 8083,
-        "token": "External_device"
+        "token": "KkFSogMUNDcKd5M30KzW"
     },
     "misc": {
         "interval_ms": 5000,
