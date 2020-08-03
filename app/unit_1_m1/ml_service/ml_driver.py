@@ -14,6 +14,7 @@ import time
 import logging
 from math import sqrt
 
+
 def get_logger(logname):
     # Create and configure logger
     logging.basicConfig(filename='app.log',
@@ -35,11 +36,17 @@ def read_config(config_path):
         with open(config_path) as handle:
             config = json.load(handle)
             http_config = config.get("http", {})
+            # mqtt_config = config.get("mqtt", {})
             misc_config = config.get("misc", {})
             kafka_config = config.get("kafka", {})
 
-            logger.debug("http config: {0}\nkafka config: {1}\nmisc config: {2}".format(http_config, kafka_config, misc_config))
+            logger.debug("http config: {0}\nkafka config: {1}\nmisc config: {2}".format(http_config, kafka_config,
+                                                                                        misc_config))
+            # logger.debug("mqtt config: {0}\nkafka config: {1}\nmisc config: {2}".format(mqtt_config, kafka_config,
+                                                                                        # misc_config))
+
             return [http_config, kafka_config, misc_config]
+            # return [mqtt_config, kafka_config, misc_config]
     except IOError as error:
         logger.error("Error opening config file '%s'" % config_path, error)
     except Exception as e:
@@ -49,28 +56,43 @@ def read_config(config_path):
 def generate(host, port, token, data, interval_ms, verbose):
     interval_secs = interval_ms / 1000.0
     headers = {'Content-Type': 'application/json', }
-    # payload = data.to_json(orient='table')
-    # print(data)
     payload = data.to_json(orient="records")
+    # payload = data.to_json()
     if verbose:
         logger.debug(payload)
     # print(type(payload))
-    print(json.loads(payload)[0])
-    payload1 = json.loads(payload)[0]
+    # print(json.loads(payload)[0])
+    # payload1 = json.loads(payload)[0]
     url_post = 'http://{0}:{1}/api/v1/{2}/telemetry'.format(host, port, token)
-    requests.post(url_post, headers=headers, data=payload1)
-    # print(payload)
+    # requests.post(url_post, headers=headers, data=payload1)
+    requests.post(url_post, headers=headers, data=payload)
+    print(payload)
     # mqttc.publish(topic, payload)
     time.sleep(interval_secs)
+
+# def generate(host, port, token, topic, data, interval_ms, verbose):
+#     mqttc = mqtt.Client()
+#     mqttc.username_pw_set(token)
+#     mqttc.connect(host,port)
+#     interval_secs = interval_ms / 1000.0
+#     payload = data.to_json(orient="records")
+#     if verbose:
+#         logger.debug(payload)
+#     print(json.loads(payload)[0])
+#     payload1 = json.loads(payload)[0]
+#     mqttc.publish(topic, str(payload1))
+#     time.sleep(interval_secs)
 
 
 if __name__ == "__main__":
     logger = get_logger(__name__)
     http_config, kafka_config, misc_config = {}, {}, {}
+    # mqtt_config, kafka_config, misc_config = {}, {}, {}
     if len(sys.argv) < 2:
         logger.debug("Please provide configuration file path.")
     else:
         http_config, kafka_config, misc_config = read_config(sys.argv[1])
+        # mqtt_config, kafka_config, misc_config = read_config(sys.argv[1])
 
     # Load saved 'scaler' and 'Model' files
     scaler = joblib.load("../ml_service/scaler.joblib")
@@ -112,8 +134,11 @@ if __name__ == "__main__":
         X_pred = model.predict(X_test1)
 
         X_pred = X_pred.reshape(X_pred.shape[0], X_pred.shape[2])
+        X_pred = scaler.inverse_transform(X_pred)
         X_pred = pd.DataFrame(X_pred, columns=test1.columns)
         # X_pred.index = test1.index
+        # X_pred = scaler.inverse_transform(X_pred)
+        # print(X_pred.head())
 
         scored = pd.DataFrame()
         Xtest = X_test1.reshape(X_test1.shape[0], X_test1.shape[2])
@@ -121,11 +146,11 @@ if __name__ == "__main__":
         scored['RMSE'] = np.mean(sqrt(mean_squared_error(Xtest,X_pred)))
         scored['threshold'] = 0.25  # Will be determined from model
         scored['Anomaly'] = scored['Loss_MAE'] > scored['threshold']
-        # print(scored.head())
+        print(scored.head())
         # print(X_pred.head())
         # print(scored['Loss_MAE'][0])
 
-        anomalies = scored[scored.Anomaly == True]
+        # anomalies = scored[scored.Anomaly == True]
         # print(anomalies.head())
 
         # result = pd.merge(test1, X_pred, on='Timestamp')  # actual test + predicted
@@ -135,10 +160,6 @@ if __name__ == "__main__":
         # print(scored.head())
         result_new = scored.astype({"Loss_MAE":float,"RMSE":float,"threshold":float,"Anomaly":bool})
 
-        generate(http_config.get("host", "localhost"), http_config.get("port", 8083),
-                 http_config.get("token", "KkFSogMUNDcKd5M30KzW"),
+        generate(http_config.get("host", "127.0.0.1"), http_config.get("port", 8083),
+                 http_config.get("token", "dtF4pxjUnZE3RxsHhmom"),
                  result_new, int(http_config.get("sleeptime", 5000)), misc_config.get("verbose", False))
-
-
-
-
