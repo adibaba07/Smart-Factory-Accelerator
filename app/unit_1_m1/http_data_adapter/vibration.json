@@ -1,0 +1,12 @@
+{
+    "mqtt": {
+        "host": "192.168.99.1",
+        "port": 1883,
+        "topic": "unit_vibration"
+    },
+    "kafka": {
+        "host": "localhost",
+        "port": 9092,
+        "topic": "sensors-u1m1"
+    }
+}
