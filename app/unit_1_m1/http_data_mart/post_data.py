@@ -1,10 +1,10 @@
+import logging
 import sys
 import json
 import time
 import requests
 import random
 import pandas as pd
-import logging
 
 
 def get_logger(logname):
@@ -65,7 +65,7 @@ def main(config_path):
 
         host = http_config.get("host", "127.0.0.1")
         port = http_config.get("port", 8083)
-        token = http_config.get("token", "External_device")
+        token = http_config.get("token", "KkFSogMUNDcKd5M30KzW")
 
         file_path = data_config.get("file_path")
         # columns = data_config.get("columns").split(",")
