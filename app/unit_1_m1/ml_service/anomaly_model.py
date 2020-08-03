@@ -33,11 +33,11 @@ data = pd.read_csv('../data/Averaged_BearingTest_Dataset.csv', index_col=[0])
 seed(10)
 
 # split data into train and test
-train = data['2004-02-12 10:52:39': '2004-02-15 22:52:39']  # normal conditions
-test = data['2004-02-15 22:52:39':]  # data leading to failure
+train = data['2004-02-12 10:52:39': '2004-02-15 12:52:39']  # normal conditions
+test = data['2004-02-15 12:52:39':]  # data leading to failure
 
-# print(train.shape)  # (505, 4)
-# print(test.shape)  # (478, 4)
+# print(train.shape)  # (445, 4)
+# print(test.shape)  # (538, 4)
 
 # seaborn plots
 
@@ -64,6 +64,7 @@ X_test = X_test.reshape(X_test.shape[0], 1, X_test.shape[1])
 # print("Test data shape:", X_test.shape)
 # (478,1,4)
 
+
 # define the autoencoder network model
 def autoencoder_model(X):
     inputs = Input(shape=(X.shape[1], X.shape[2]))
@@ -84,12 +85,12 @@ model.compile(optimizer='adam', loss='mae')
 # print(model.summary())
 
 # fit the model to the data
-nb_epochs = 100
+nb_epochs =100
 batch_size = 10
 history = model.fit(X_train, X_train, epochs=nb_epochs, batch_size=batch_size,
                     validation_split=0.05).history
 scores = model.evaluate(X_train, X_train, verbose=0)
-# print(scores, model.metrics_names)
+print(scores, model.metrics_names)
 
 # serialize model to JSON
 # model_json = model.to_json()
@@ -129,18 +130,22 @@ Xtrain = X_train.reshape(X_train.shape[0], X_train.shape[2])
 scored['Loss_MAE'] = np.mean(np.abs(X_pred-Xtrain), axis=1)
 # print(scored.head())
 
-# plt.figure(figsize=(16,9), dpi=80)
-# plt.title('Loss Distribution')
-# sns.distplot(scored['Loss_MAE'], bins=20, kde=True, color='blue')
-# plt.xlim([0.0, .5])
-# plt.show()
+plt.figure(figsize=(16,9), dpi=80)
+plt.title('Loss Distribution')
+sns.distplot(scored['Loss_MAE'], bins=20, kde=True, color='blue')
+plt.xlim([0.0, .5])
+plt.show()
 
 # Let loss threshold be 0.25 based on above plot
 # Calculate reconstruction loss on test set
 X_pred = model.predict(X_test)
+# print(X_test)
 # print(X_pred)
-# print(np.mean(sqrt(mean_squared_error(X_test,X_pred))))
-# print(np.mean(np.abs(X_pred-X_test)))
+# res = model.evaluate(X_test, X_pred, verbose=0)
+# print(res)
+# print(X_pred)
+print(np.mean(np.abs(X_pred-X_test)))
+
 X_pred = X_pred.reshape(X_pred.shape[0], X_pred.shape[2])
 X_pred = pd.DataFrame(X_pred, columns=test.columns)
 # print(X_pred.head())
@@ -151,7 +156,7 @@ Xtest = X_test.reshape(X_test.shape[0], X_test.shape[2])
 # print(sqrt(mean_squared_error(X_test,X_pred)))
 scored['Loss_MAE'] = np.mean(np.abs(X_pred-Xtest), axis=1)
 # scored['RMSE'] = sqrt(mean_squared_error(Xtest,X_pred))
-scored['threshold'] = 0.25
+scored['threshold'] = 0.250
 scored['Anomaly'] = scored['Loss_MAE'] > scored['threshold']
 print(scored.head())
 # plt.plot(scored.index, scored.Loss_MAE, label = 'Loss_MAE')
