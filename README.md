@@ -1,11 +1,7 @@
 # Smart-Factory-Accelerator
 
-~~~~~~~~~~~~~~~~~~~~~~~~
 Smart-Factory-Accelerator is a real-time analytics and predictive maintenance solution built on top of ThingsBoard and QlikSense, enabled by AI and is distributed 
 under the Apache license.
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-~~~~~~~~~~~~~~~~~~~~~~~~
 
 DESCRIPTION
 
@@ -22,5 +18,3 @@ of what is happening in the factory without any delay. Therefore, identifying bo
 increasing awareness of the operational system are key to sensor-based monitoring. The salient features of Smart Factory Accelerator are its IoT integration with 
 ThingsBoard and real-time alerting system with alert notification to employee’s Telegram Bot as well as on device manager of ThingsBoard, providing real time updates 
 of any machine malfunction to the operator to initiate a corrective measure.
-
-~~~~~~~~~~~~~~~~~~~~~~~~
