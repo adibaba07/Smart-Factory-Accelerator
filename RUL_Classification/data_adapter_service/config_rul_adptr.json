@@ -1,0 +1,12 @@
+{
+    "mqtt": {
+        "host": "localhost",
+        "port": 1883,
+        "topic": "rawmessage1"
+    },
+    "kafka": {
+        "host": "localhost",
+        "port": 9092,
+        "topic": "RULsensors"
+    }
+}
